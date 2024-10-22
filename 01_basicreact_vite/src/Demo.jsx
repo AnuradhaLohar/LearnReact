@@ -2,7 +2,7 @@
 
 function Demo() {
     return(
-        <h1>Hello gajara</h1>
+        <h1>Welcome to React</h1>
     )
 }
 

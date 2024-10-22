@@ -2,11 +2,11 @@
 import Demo from './Demo'
 
 function App() {
-
+  const username = " React"
   return (
     <div>
       < Demo />
-      <h1>Hello Ajya</h1>
+      <h1>Hello{username} </h1>
     </div>
    
   )

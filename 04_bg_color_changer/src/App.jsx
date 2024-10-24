@@ -14,45 +14,41 @@ function App() {
         <div className="flex justify-center gap-3 px-3 py-2 bg-white text-black rounded-3xl">
             <button 
               onClick={ () =>  setColor("red") }
-              className="px-8 py-3 rounded-2xl text-white shadow-lg"
-              style={{backgroundColor: "red"}}
-            >Red</button>
+              className="px-8 py-3 rounded-2xl text-white shadow-lg bg-red-600"
+              >Red</button>
             
             <button 
               onClick={ () =>  setColor("purple") }
-              className="px-8 py-3 rounded-2xl text-white  shadow-lg"
-              style={{backgroundColor: "purple"}}
+              className="px-8 py-3 rounded-2xl text-white  shadow-lg bg-purple-600"
+              
             >purple</button>
 
             <button 
               onClick={ () =>  setColor("orange") }
-              className="px-8 py-3 rounded-2xl text-white  shadow-lg"
-              style={{backgroundColor: "orange"}}
+              className="px-8 py-3 rounded-2xl text-white  shadow-lg bg-orange-600"
+              
             >orange</button>
 
             <button 
               onClick={ () =>  setColor("maroon") }
-              className="px-8 py-3 rounded-2xl text-white  shadow-lg"
-              style={{backgroundColor: "maroon"}}
+              className="px-8 py-3 rounded-2xl text-white  shadow-lg bg-red-950"
+              
             >maroon</button>
 
             <button 
               onClick={ () =>  setColor("black") }
-              className="px-8 py-3 rounded-2xl text-white  shadow-lg"
-              style={{backgroundColor: "black"}}
-            >black</button>
+              className="px-8 py-3 rounded-2xl text-white  shadow-lg bg-black"
+                          >black</button>
 
             <button 
               onClick={ () =>  setColor("green") }
-              className="px-8 py-3 rounded-2xl text-white  shadow-lg"
-              style={{backgroundColor: "green"}}
-            >green</button>
+              className="px-8 py-3 rounded-2xl text-white  shadow-lg bg-green-600"
+                          >green</button>
 
             <button 
               onClick={ () =>  setColor("blue") }
-              className="px-8 py-3 rounded-2xl text-white  shadow-lg"
-              style={{backgroundColor: "blue"}}
-            >blue</button>
+              className="px-8 py-3 rounded-2xl text-white  shadow-lg bg-blue-600"
+                         >blue</button>
 
         </div>
 
